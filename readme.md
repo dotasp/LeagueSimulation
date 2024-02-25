@@ -11,6 +11,7 @@ Proyek ini adalah simulator liga yang memungkinkan pengguna untuk menjalankan si
 
 ## Struktur Proyek
 
+```
 simulator/
 │
 ├── models/
@@ -20,6 +21,7 @@ simulator/
 │ └── simulator_manager.py # Menjalankan dan menganalisis simulasi
 │
 └── main.py # Titik masuk utama untuk menjalankan simulasi
+```
 
 ## Cara Menggunakan
 
