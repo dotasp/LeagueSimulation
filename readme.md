@@ -11,6 +11,15 @@ Proyek ini adalah simulator liga yang memungkinkan pengguna untuk menjalankan si
 
 ## Struktur Proyek
 
+simulator/
+│
+├── models/
+│ ├── team.py # Mendefinisikan tim dan kekuatannya
+│ ├── match_resolver.py # Menghitung probabilitas kemenangan
+│ ├── league.py # Mengelola liga dan pertandingan
+│ └── simulator_manager.py # Menjalankan dan menganalisis simulasi
+│
+└── main.py # Titik masuk utama untuk menjalankan simulasi
 
 ## Cara Menggunakan
 
