@@ -14,7 +14,7 @@ class MatchResolver:
             for j in range(i + 1, len(teams)):
                 team1 = teams[i]
                 team2 = teams[j]
-                base_probability = team1.strength / (team1.strength + team2.strength) + 0.05  # Home advantage
+                base_probability = team1.strength / (team1.strength + team2.strength)
                 if team2.name in team1.bad_matchups:
                     base_probability -= 0.1
                 probabilities.append(base_probability)
