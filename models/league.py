@@ -26,7 +26,10 @@ class League:
     def play_season(self):
         for i in range(len(self.teams)):
             for j in range(i + 1, len(self.teams)):
+                # Tim i sebagai home, Tim j sebagai away
                 self.play_match(self.teams[i], self.teams[j])
+                # Kemudian, Tim j sebagai home, Tim i sebagai away
+                self.play_match(self.teams[j], self.teams[i])
 
     def get_standings(self):
         return self.calculate_standings()
